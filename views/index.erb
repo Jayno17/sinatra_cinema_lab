@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <ul>
+<ul>
 <% for film in @films %>
-<li><%= film.title %></li>
+<li><a href="#"><%= film.title %></a></li>
 <% end %>
-  </ul>
-  </body>
-</html>
+</ul>
